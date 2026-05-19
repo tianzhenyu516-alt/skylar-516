@@ -1,0 +1,46 @@
+# Skylar 516 - Git Ignore
+
+# 编译产物
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+
+# Keil MDK 临时文件
+*.uvgui*
+*.uvopt*
+*.bak
+RTE/
+Listings/
+Objects/
+*.dep
+*.htm
+*.lnp
+*.sct
+JLinkLog.txt
+JLinkSettings.ini
+*.dbgconf
+*.scvd
+ExtDll.iex
+build_output.txt
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE 配置
+.idea/
+.vscode/
+*.suo
+*.user
+
+# 临时文件
+*.log
+*.tmp
+*.temp
